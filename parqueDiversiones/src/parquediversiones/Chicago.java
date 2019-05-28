@@ -11,38 +11,30 @@ import java.util.ArrayList;
  *
  * @author Guille
  */
-public class Chicago extends Gusanito{
-
-        Chicago() {
+public class Chicago extends Rueda{
+    
+        public Chicago() {
             super();
     }
         
-     public Chicago(double precioC, int personas) {
-    super();
-    this.precio=precioC;
-    precioC=5.00;
-    this.personas=personas;
-    this.asientos=new ArrayList<>(2);
-    this.carritos=new ArrayList<>(24);
+     public Chicago(double precio) {
+         this.precio=3;
+         this.ncarritos=24;
+    
     }
 
 
-     @Override
-    public void agregarPersonas(ArrayList <Integer> carritos, ArrayList <Boolean> asientos){
+    public void agregarPersonas(){
         
         
     }
     
-    @Override
+   
      public void mostrarAsientos(ArrayList <Integer> carritos, ArrayList <Boolean> asientos){
         
         
     }
      
-     @Override
-     public void mostrarGanancia(ArrayList <Integer> carritos, ArrayList <Boolean> asientos){
-        
-        
-    }
+    
      
 }

@@ -17,14 +17,9 @@ public class Rusa extends Chicago{
         super();
     }
     
-    public Rusa(double precioR, int carritosR, int personas) {
-    super();
-    this.precio=precioR;
-    precioR=5.00;
-    carritosR=24;
-    this.personas=personas;
-    this.asientos=new ArrayList<>(2);
-    this.carritos=new ArrayList<>(24);
+    public Rusa(double precioR) {
+    this.precio=5;
+    this.ncarritos=24;
     }
    
     
